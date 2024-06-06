@@ -7,9 +7,7 @@ btn.addEventListener("click",async function f(){
     let res = await data.json();
     console.log(res);
     tag.innerText = res[0].setup;
-    setTimeout(() => {     
     punch.innerText = res[0].punchline;
-    }, 1000);
     });
 
 
